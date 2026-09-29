@@ -1,1 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Contact & Prayer | Agape Community Church
+    </title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+<body>
+
+<div class="progress"
+     id="progress">
+</div>
+
+
+<!-- NAVIGATION -->
+<nav class="site-nav">
+
+    <a href="home.html"
+       class="brand">
+
+        <img src="images/church-logo.jpg"
+             alt="Agape Community Church logo">
+
+        <span>
+            <strong>Agape</strong>
+            <small>Community Church</small>
+        </span>
+
+    </a>
+
+
+    <button class="menu-toggle"
+            id="menuToggle">
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </button>
+
+
+    <div class="nav-links"
+         id="navLinks">
+
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="team.html">Team</a>
+        <a href="gallery.html">Gallery</a>
+
+        <a href="contact.html"
+           class="nav-cta">
+
+            Contact & Prayer
+
+        </a>
+
+        <button class="theme-toggle"
+                id="themeToggle">
+
+            ☾
+
+        </button>
+
+    </div>
+
+</nav>
+
+
+<main>
+
+
+<!-- HEADER -->
+<section class="page-hero">
+
+    <div class="container reveal">
+
+        <span class="kicker">
+            Contact & Prayer
+        </span>
+
+        <h1>
+            We would love
+            to hear from you.
+        </h1>
+
+        <p class="lead">
+            Whether you want to visit, join a fellowship,
+            ask a question or simply have someone pray
+            with you, you are welcome to reach out.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT FORM -->
+<section class="section">
+
+    <div class="container contact-grid">
+
+
+        <!-- CONTACT INFORMATION -->
+        <div class="reveal">
+
+            <span class="kicker">
+                Connect with Agape
+            </span>
+
+            <h2>
+                Bring your prayer request.
+            </h2>
+
+            <p>
+                Use the form to share your name, email
+                and prayer need.
+            </p>
+
+            <p>
+                We believe prayer is an important part
+                of the Christian life, and no prayer request
+                is too small to bring before God.
+            </p>
+
+
+            <div class="contact-list"
+                 style="margin-top:24px">
+
+
+                <div class="contact-item">
+
+                    <div class="icon">
+                        ⌂
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Wakitaka Church
+                        </strong>
+
+                        <p>
+                            Wakitaka, Jinja, Uganda
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="icon">
+                        ♡
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Prayer
+                        </strong>
+
+                        <p>
+                            Share what you would like
+                            the church to pray about.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="icon">
+                        ✉
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Church Email
+                        </strong>
+
+                        <p class="placeholder-contact">
+                            Add official church email here
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="icon">
+                        ☎
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Senior Pastor
+                        </strong>
+
+                        <p>
+                            Pastor Daniel Isabirye
+                        </p>
+
+                        <p class="placeholder-contact">
+                            Add official pastor contact here
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- FORM -->
+        <div class="form-card reveal">
+
+            <form class="interactive-form"
+                  data-message="Thank you for reaching out to Agape Community Church. Your prayer request has been captured in this demo. Connect the form to your church email or form service to receive submissions.">
+
+
+                <div class="form-grid">
+
+
+                    <div class="field">
+
+                        <label for="name">
+                            Full Name
+                        </label>
+
+                        <input
+                            id="name"
+                            name="name"
+                            required
+                            placeholder="Your name">
+
+                    </div>
+
+
+                    <div class="field">
+
+                        <label for="email">
+                            Email Address
+                        </label>
+
+                        <input
+                            id="email"
+                            name="email"
+                            type="email"
+                            required
+                            placeholder="you@example.com">
+
+                    </div>
+
+
+                    <div class="field full">
+
+                        <label for="interest">
+                            How can we help?
+                        </label>
+
+                        <select id="interest"
+                                name="interest">
+
+                            <option>
+                                Prayer request
+                            </option>
+
+                            <option>
+                                I want to visit the church
+                            </option>
+
+                            <option>
+                                I want to join a fellowship
+                            </option>
+
+                            <option>
+                                General question
+                            </option>
+
+                            <option>
+                                Other
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="field full">
+
+                        <label for="prayer">
+                            How can we pray with you?
+                        </label>
+
+                        <textarea
+                            id="prayer"
+                            name="prayer"
+                            required
+                            placeholder="Share your prayer request...">
+                        </textarea>
+
+                    </div>
+
+
+                    <div class="field full">
+
+                        <label>
+
+                            <input type="checkbox"
+                                   required>
+
+                            I understand that this website form
+                            is a prayer/contact request and I am
+                            choosing to submit it.
+
+                        </label>
+
+                    </div>
+
+
+                </div>
+
+
+                <button class="btn btn-primary"
+                        type="submit">
+
+                    Send prayer request →
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- MAP -->
+<section class="section-sm">
+
+    <div class="container">
+
+        <div class="grid-2">
+
+
+            <div class="reveal">
+
+                <span class="kicker">
+                    Visit us
+                </span>
+
+                <h2>
+                    Find Agape in Wakitaka.
+                </h2>
+
+                <p>
+                    Wakitaka, Jinja, Uganda.
+                </p>
+
+                <p>
+                    Use the area map below and contact
+                    the church for the exact entrance or
+                    current meeting directions.
+                </p>
+
+                <a target="_blank"
+                   rel="noopener"
+                   class="btn btn-secondary"
+                   href="https://www.google.com/maps/search/?api=1&query=Agape+Community+Church+Wakitaka+Jinja+Uganda">
+
+                    Open Google Maps →
+
+                </a>
+
+            </div>
+
+
+            <div class="map-wrap reveal">
+
+                <iframe
+                    loading="lazy"
+                    src="https://www.google.com/maps?q=Wakitaka%2C%20Jinja%2C%20Uganda&output=embed"
+                    title="Wakitaka, Jinja, Uganda map">
+                </iframe>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+<footer class="site-footer">
+
+    <div class="footer-grid">
+
+        <div>
+
+            <a href="home.html"
+               class="footer-brand">
+
+                <img src="images/church-logo.jpg"
+                     alt="">
+
+                Agape Community Church
+
+            </a>
+
+            <p>
+                A Christ-centred community growing in faith
+                and expressing the selfless love of God to everyone.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h4>
+                Explore
+            </h4>
+
+            <a href="about.html">Our Story</a>
+            <a href="services.html">Ministries</a>
+            <a href="team.html">Leadership</a>
+            <a href="gallery.html">Gallery</a>
+
+        </div>
+
+
+        <div>
+
+            <h4>
+                Our locations
+            </h4>
+
+            <p>
+                Wakitaka, Jinja, Uganda
+            </p>
+
+            <p>
+                Buyizi Agape Community Church
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h4>
+                Connect
+            </h4>
+
+            <p>
+                Have a prayer request or want to visit?
+            </p>
+
+            <a class="footer-button"
+               href="contact.html">
+
+                Reach out to us →
+
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <span>
+            © <span id="year"></span>
+            Agape Community Church
+        </span>
+
+        <span>
+            Built around love • faith • community
+        </span>
+
+    </div>
+
+</footer>
+
+
+<div class="toast"
+     id="toast">
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
